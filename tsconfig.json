@@ -1,0 +1,59 @@
+/*
+  This is a "Solution Style" tsconfig.json file, and is used by editors and TypeScript’s language server to improve development experience.
+  It is not intended to be used to perform a compilation.
+
+  To learn more about this file see: https://angular.io/config/solution-tsconfig.
+*/
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./projects/customersServiceReport/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/customersServiceReport/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/customersPerformanceReport/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/customersPerformanceReport/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/customersShipmentReport/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/customersShipmentReport/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/customerTransactionDetails/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/customerTransactionDetails/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/customersFilter/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/customersFilter/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/adminSettings/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/adminSettings/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/loginUserdetails/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/loginUserdetails/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/customerApp/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/customerApp/tsconfig.spec.json"
+    }
+  ]
+}

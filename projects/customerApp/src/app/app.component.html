@@ -1,0 +1,55 @@
+<div>
+    <header *ngIf="hideName">
+        <div class="d-flex flex-row bd-highlight mb-3 justify-content-between" style="margin-top: 1.5%;">
+            <div class="p-2 bd-highlight">
+                <select [(ngModel)]="reportItem" (change)="reportType()">
+                    <option value="" disabled selected>DASHBOARD MENU</option>
+                    <option *ngFor="let item of reportList" [ngValue]="item">{{item.report_name}}</option>
+                </select>
+            </div>
+            <div style="margin-left: 60%;" class="p-2 bd-highlight"><button data-toggle="modal"
+                    data-target="#myModal2">FILTER</button>
+            </div>
+            <div class="p-2 bd-highlight">
+                <select [(ngModel)]="profileItem" (change)="selectMenu()">
+                    <option value="" disabled selected>PROFILE MENU</option>
+                    <option *ngFor="let item of profileMenu" [ngValue]="item">{{item.name}}</option>
+                </select>
+            </div>
+        </div>
+    </header>
+    <section>
+        <article>
+            <router-outlet></router-outlet>
+        </article>
+    </section>
+
+    <footer *ngIf="hideName">
+    </footer>
+</div>
+
+<div class="modal right fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel2"></h4>
+            </div>
+
+            <div class="modal-body">
+                <div class="p-2 bd-highlight">
+                    <select [(ngModel)]="filterItem" (change)="reportType()">
+                        <option value="" disabled selected>CUSTOMER ID</option>
+                        <option *ngFor="let item of filterQueue" [ngValue]="item">{{item.id}}</option>
+                    </select>
+                </div>
+                <div class="">
+                    <button (click)="filterCustomer()">Apply</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,439 @@
+{
+    "customer_service_report": [
+        {
+            "id": "1",
+            "name": "Customer1",
+            "type": "Service Report",
+            "age": "20",
+            "gender": "Male",
+            "occupation": "Student"
+        },
+        {
+            "id": "2",
+            "name": "Customer2",
+            "type": "Service Report",
+            "age": "21",
+            "gender": "Female",
+            "occupation": "Doctor"
+        },
+        {
+            "id": "3",
+            "name": "Customer3",
+            "type": "Service Report",
+            "age": "26",
+            "gender": "Male",
+            "occupation": "Engineer"
+        },
+        {
+            "id": "4",
+            "name": "Customer4",
+            "type": "Service Report",
+            "age": "20",
+            "gender": "Male",
+            "occupation": "Lawyer"
+        },
+        {
+            "id": "5",
+            "name": "Customer5",
+            "type": "Service Report",
+            "age": "22",
+            "gender": "Female",
+            "occupation": "Student"
+        },
+        {
+            "id": "6",
+            "name": "Customer6",
+            "type": "Service Report",
+            "age": "29",
+            "gender": "Female",
+            "occupation": "Police"
+        },
+        {
+            "id": "7",
+            "name": "Customer7",
+            "type": "Service Report",
+            "age": "24",
+            "gender": "Male",
+            "occupation": "Doctor"
+        },
+        {
+            "id": "8",
+            "name": "Customer8",
+            "type": "Service Report",
+            "age": "23",
+            "gender": "Male",
+            "occupation": "Teacher"
+        },
+        {
+            "id": "9",
+            "name": "Customer9",
+            "type": "Service Report",
+            "age": "40",
+            "gender": "Female",
+            "occupation": "Doctor"
+        },
+        {
+            "id": "10",
+            "name": "Customer10",
+            "type": "Service Report",
+            "age": "20",
+            "gender": "Female",
+            "occupation": "Teacher"
+        }
+    ],
+    "reportList": [
+        {
+            "id": "1",
+            "report_name": "Customers Service Report"
+        },
+        {
+            "id": "2",
+            "report_name": "Customers Performance Report"
+        },
+        {
+            "id": "3",
+            "report_name": "Customers Transaction Details"
+        },
+        {
+            "id": "4",
+            "report_name": "Customers Shipment report"
+        }
+    ],
+    "profileMenu": [
+        {
+            "id": "1",
+            "name": "Admin Settings"
+        },
+        {
+            "id": "2",
+            "name": "Login user details"
+        },
+        {
+            "id": "3",
+            "name": "Language changes"
+        },
+        {
+            "id": "4",
+            "name": "Logout"
+        }
+    ],
+    "customer_performance_report": [
+        {
+            "id": "1",
+            "name": "Customer1",
+            "type": "Performance Report",
+            "age": "20",
+            "gender": "Male",
+            "occupation": "Student"
+        },
+        {
+            "id": "2",
+            "name": "Customer2",
+            "type": "Performance Report",
+            "age": "21",
+            "gender": "Female",
+            "occupation": "Doctor"
+        },
+        {
+            "id": "3",
+            "name": "Customer3",
+            "type": "Performance Report",
+            "age": "26",
+            "gender": "Male",
+            "occupation": "Engineer"
+        },
+        {
+            "id": "4",
+            "name": "Customer4",
+            "type": "Performance Report",
+            "age": "20",
+            "gender": "Male",
+            "occupation": "Lawyer"
+        },
+        {
+            "id": "5",
+            "name": "Customer5",
+            "type": "Performance Report",
+            "age": "22",
+            "gender": "Female",
+            "occupation": "Student"
+        }
+    ],
+    "customer_shipment_report": [
+        {
+            "id": "1",
+            "name": "Customer1",
+            "type": "Shipment Report",
+            "age": "20",
+            "gender": "Male",
+            "occupation": "Student"
+        },
+        {
+            "id": "2",
+            "name": "Customer2",
+            "type": "Shipment Report",
+            "age": "21",
+            "gender": "Female",
+            "occupation": "Doctor"
+        },
+        {
+            "id": "3",
+            "name": "Customer3",
+            "type": "Shipment Report",
+            "age": "26",
+            "gender": "Male",
+            "occupation": "Engineer"
+        },
+        {
+            "id": "4",
+            "name": "Customer4",
+            "type": "Shipment Report",
+            "age": "20",
+            "gender": "Male",
+            "occupation": "Lawyer"
+        },
+        {
+            "id": "5",
+            "name": "Customer5",
+            "type": "Shipment Report",
+            "age": "22",
+            "gender": "Female",
+            "occupation": "Student"
+        },
+        {
+            "id": "6",
+            "name": "Customer6",
+            "type": "Shipment Report",
+            "age": "29",
+            "gender": "Female",
+            "occupation": "Police"
+        },
+        {
+            "id": "7",
+            "name": "Customer7",
+            "type": "Shipment Report",
+            "age": "24",
+            "gender": "Male",
+            "occupation": "Doctor"
+        },
+        {
+            "id": "8",
+            "name": "Customer8",
+            "type": "Shipment Report",
+            "age": "23",
+            "gender": "Male",
+            "occupation": "Teacher"
+        },
+        {
+            "id": "9",
+            "name": "Customer9",
+            "type": "Shipment Report",
+            "age": "40",
+            "gender": "Female",
+            "occupation": "Doctor"
+        },
+        {
+            "id": "10",
+            "name": "Customer10",
+            "type": "Shipment Report",
+            "age": "20",
+            "gender": "Female",
+            "occupation": "Teacher"
+        }
+    ],
+    "customer_transaction_details": [
+        {
+            "id": "1",
+            "name": "Customer1",
+            "type": "Transaction details",
+            "age": "20",
+            "gender": "Male",
+            "occupation": "Student"
+        },
+        {
+            "id": "2",
+            "name": "Customer2",
+            "type": "Transaction details",
+            "age": "21",
+            "gender": "Female",
+            "occupation": "Doctor"
+        },
+        {
+            "id": "3",
+            "name": "Customer3",
+            "type": "Transaction details",
+            "age": "26",
+            "gender": "Male",
+            "occupation": "Engineer"
+        },
+        {
+            "id": "4",
+            "name": "Customer4",
+            "type": "Transaction details",
+            "age": "20",
+            "gender": "Male",
+            "occupation": "Lawyer"
+        },
+        {
+            "id": "5",
+            "name": "Customer5",
+            "type": "Transaction details",
+            "age": "22",
+            "gender": "Female",
+            "occupation": "Student"
+        }
+    ],
+    "admin_setting": [
+        {
+            "id": "1",
+            "name": "Customer1",
+            "type": "Transaction details",
+            "age": "20",
+            "gender": "Male",
+            "occupation": "Student"
+        },
+        {
+            "id": "2",
+            "name": "Customer2",
+            "type": "Transaction details",
+            "age": "21",
+            "gender": "Female",
+            "occupation": "Doctor"
+        },
+        {
+            "id": "3",
+            "name": "Customer3",
+            "type": "Transaction details",
+            "age": "26",
+            "gender": "Male",
+            "occupation": "Engineer"
+        },
+        {
+            "id": "4",
+            "name": "Customer4",
+            "type": "Transaction details",
+            "age": "20",
+            "gender": "Male",
+            "occupation": "Lawyer"
+        },
+        {
+            "id": "5",
+            "name": "Customer5",
+            "type": "Transaction details",
+            "age": "22",
+            "gender": "Female",
+            "occupation": "Student"
+        },
+        {
+            "id": "6",
+            "name": "Customer6",
+            "type": "Transaction details",
+            "age": "29",
+            "gender": "Female",
+            "occupation": "Police"
+        },
+        {
+            "id": "7",
+            "name": "Customer7",
+            "type": "Transaction details",
+            "age": "24",
+            "gender": "Male",
+            "occupation": "Doctor"
+        },
+        {
+            "id": "8",
+            "name": "Customer8",
+            "type": "Transaction details",
+            "age": "23",
+            "gender": "Male",
+            "occupation": "Teacher"
+        },
+        {
+            "id": "9",
+            "name": "Customer9",
+            "type": "Transaction details",
+            "age": "40",
+            "gender": "Female",
+            "occupation": "Doctor"
+        },
+        {
+            "id": "10",
+            "name": "Customer10",
+            "type": "Transaction details",
+            "age": "20",
+            "gender": "Female",
+            "occupation": "Teacher"
+        }
+    ],
+    "login_user_details": [
+        {
+            "first": "Balachandar",
+            "last": "Narayanan",
+            "age": "30",
+            "user": "admin"
+        }
+    ],
+    "bar_chart": {
+        "label": [
+            "2014",
+            "2015",
+            "2016",
+            "2017",
+            "2018",
+            "2019",
+            "2020"
+        ],
+        "type": "bar",
+        "data1": [
+            65,
+            59,
+            80,
+            81,
+            56,
+            55,
+            40
+        ],
+        "data2": [
+            28,
+            48,
+            40,
+            19,
+            86,
+            27,
+            90
+        ],
+        "label1": "Male",
+        "label2": "Female"
+    },
+    "pie_chart": {
+        "label": [
+            "High",
+            "Medium",
+            "Low"
+        ],
+        "type": "pie",
+        "data": [
+            300,
+            500,
+            100
+        ]
+    },
+    "login_credential": [
+        {
+            "username": "bala",
+            "password": "bala123",
+            "firtname": "Balachandar",
+            "lastname": "Narayanan",
+            "age": "30",
+            "user": "Admin"
+        },
+        {
+            "username": "welcome",
+            "password": "welcome123",
+            "firtname": "Welcome",
+            "lastname": "Service",
+            "age": "25",
+            "user": "Customer"
+        }
+    ]
+}
