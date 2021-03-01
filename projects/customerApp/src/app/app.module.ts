@@ -14,6 +14,7 @@ import { FilterComponent } from './filter/filter.component';
 import { AdminSettingsComponent } from './admin-settings/admin-settings.component';
 import { LoginUserDetailsComponent } from './login-user-details/login-user-details.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     FilterComponent,
     AdminSettingsComponent,
     LoginUserDetailsComponent,
-    DashboardComponent
+    DashboardComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
